@@ -1,9 +1,11 @@
-searchForm = document.querySelector('search-form');
 
+document.getElementById("login-btn").addEventListener("click",function(){
+    document.querySelector(".login-form-container").style.display = "flex";
+})
 
-document.querySelector('#search-btn').onclick = () =>{
-    searchForm.classList.toggle('active');
-}
+document.getElementById("close-login-btn").addEventListener("click", function(){
+    document.querySelector(".login-form-container").style.display = "none";
+})
 
 
 
@@ -28,3 +30,24 @@ window.onload = () => {
         document.querySelector('.header .header-2').classList.remove('active');
     }
 }
+
+var swiper = new Swiper(".book-slider", {
+    loop:true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+
+  var swiper = new Swiper(".featured-slider", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });

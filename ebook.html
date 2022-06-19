@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link
+  rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body>
 
@@ -48,12 +50,250 @@
 
         <a href="#home" class="fas fa-home"></a>
         <a href="#produtos" class="fas fa-list"></a>
-        <a href="#lancamentos" class="fas fa-tags"></a>
+        <a href="#featured" class="fas fa-tags"></a>
         <a href="#review" class="fas fa-comments"></a>
         <a href="#home" class="fas fa-blogs"></a>
 
     </nav>
 
+    <div class="login-form-container">
+
+        <div id="close-login-btn" class="fas fa-times">
+
+        </div>
+        <form action="">
+            <h3>Entre</h3>
+            <span>Usuário</span>
+            <input type="email" name=""  class="box" placeholder =" email..."id="">
+
+            <span>Senha</span>
+            <input type="password" class="box" name="" placeholder =" Senha..."id="">
+
+            <div class="checkbox">
+                <input type="checkbox" name="" id="lembre-se">
+                <label for="lembre-se">Lembre-me</label>
+
+            </div>
+            <input type="submit" value="entre" class="btn">
+            <p>Esqueci minha senha <a href="#">Clique aqui</a></p>
+            <p>Não tenho conta <a href="#">Cadastre-se</a></p>
+        </form>
+
+    </div>
+
+    <section class="home" id="home">
+        <div class="row">
+            <div class="content">
+                <h3>75%OFF</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, expedita.
+                </p>
+                <a href="#" class="btn"> Compre já</a>
+
+            </div>
+
+            <div class=" swiper book-slider">
+                <div class="swiper-wrapper">
+
+               
+                 <a href="#"class="swiper-slide"><img src="midia/imagem1.jfif"alt=""></a>
+                 <a href="#"class="swiper-slide"><img src="midia/imagem2.jfif"alt=""></a>
+                 <a href="#"class="swiper-slide"><img src="midia/imagem3.jpg"alt=""></a>
+                 <a href="#"class="swiper-slide"><img src="midia/imagem4.jpg" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="icons-container">
+
+       
+
+        <div class="icons">
+            <i class="fas fa-plane"></i>
+            <div class="content">
+                <h3>Entrega grátis</h3>
+                <p>Acima de R$100,00 reais</p>
+
+            </div>
+
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-lock"></i>
+            <div class="content">
+                <h3>Pagamento seguro</h3>
+                <p>Confiança garantida</p>
+
+            </div>
+
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-redo-alt"></i>
+            <div class="content">
+                <h3>Fácil retorno</h3>
+                <p>10 dias para retornar um item</p>
+
+            </div>
+
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-headset"></i>
+            <div class="content">
+                <h3>24/7 suporte</h3>
+                <p>Contate a hora que quiser</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="featured" id="featured">
+        <h1 class="heading"><span>Lançamentos</span></h1>
+
+        <div class=" swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+
+                    </div>
+                    <div class="image">
+                        <img src="midia/livro1.jfif" alt="">
+
+                    </div>
+                    <div class="content">
+                      <h3>Livros em lançamento</h3>
+                      <div class="price">R$ 20,00 <span>24,00</span></div>
+                      <a href="#" class="btn1"> Adicionar ao carrinho</a>
+
+                    </div>
+
+                </div>
+
+                <div class=" swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+
+                    </div>
+                    <div class="image">
+                        <img src="midia/imagem7.jfif" alt="">
+
+                    </div>
+                    <div class="content">
+                      <h3>Livros em lançamento</h3>
+                      <div class="price">R$ 19,00 <span>23,00</span></div>
+                      <a href="#" class="btn1"> Adicionar ao carrinho</a>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+
+                    </div>
+                    <div class="image">
+                        <img src="midia/livro3.jpg" alt="">
+
+                    </div>
+                    <div class="content">
+                      <h3>Livros em lançamento</h3>
+                      <div class="price">R$ 18,00 <span>22,00</span></div>
+                      <a href="#" class="btn1"> Adicionar ao carrinho</a>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+
+                    </div>
+                    <div class="image">
+                        <img src="midia/livro4.jfif" alt="">
+
+                    </div>
+                    <div class="content">
+                      <h3>Livros em lançamento</h3>
+                      <div class="price">R$ 21,00 <span>25,00</span></div>
+                      <a href="#" class="btn1"> Adicionar ao carrinho</a>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+
+                    </div>
+                    <div class="image">
+                        <img src="midia/livro5.jfif" alt="">
+
+                    </div>
+                    <div class="content">
+                      <h3>Livros em lançamento</h3>
+                      <div class="price">R$ 22,00 <span>26,00</span></div>
+                      <a href="#" class="btn1"> Adicionar ao carrinho</a>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+
+                    </div>
+                    <div class="image">
+                        <img src="midia/imagem8.jfif" alt="">
+
+                    </div>
+                    <div class="content">
+                      <h3>Livros em lançamento</h3>
+                      <div class="price">R$ 23,00 <span>27,00</span></div>
+                      <a href="#" class="btn1"> Adicionar ao carrinho</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            
+        </div>
+
+    </section>
+
+<section class="newsletter">
+    <form action="">
+        <h3>Increva-se para mais</h3>
+        <input type="email" placeholder="Entre com email" id="" class="box">
+        <input type="submit" value="inscreva-se" class="btn2">
+
+    </form>
+
+</section>
     
 
 
@@ -68,7 +308,7 @@
 
 
 
-
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/52b13b8b2d.js" crossorigin="anonymous"></script>
     <script src="Javascript/javascript.js"></script>
 </body>
