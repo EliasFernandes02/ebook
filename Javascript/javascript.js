@@ -51,3 +51,21 @@ var swiper = new Swiper(".book-slider", {
       clickable: true,
     },
   });
+
+  var swiper = new Swiper(".review-slider", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+
+  var swiper = new Swiper(".blog-slider", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });

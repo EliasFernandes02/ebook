@@ -29,6 +29,7 @@ html{
     overflow-x: hidden;
     scroll-padding-top:5rem;
     scroll-behavior: smooth;
+    
 }
 section{
     padding: 5rem 9%;
@@ -77,6 +78,8 @@ section{
     width:30%;
 
 }
+
+
 
 .heading::before{
     content: '';
@@ -384,6 +387,7 @@ html::-webkit-scrollbar-thumb{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
     gap: 1.5rem;
+    background-color: rgba(249, 245, 247, 0.8);
 }
 
 .icons-container .icons{
@@ -524,7 +528,208 @@ html::-webkit-scrollbar-thumb{
     
 }
 
+.deal{
+    background: rgba(249, 245, 247, 0.8);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.0rem;
+}
 
+.deal .content{
+    flex: 1 1 30rem; 
+    
+    
+}
+
+.deal  .image{
+    flex: 1 1 30rem;
+    
+    
+}
+
+.deal  .image img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.deal .content h3{
+    color: var(--green);
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+
+}
+
+.deal .content h1{
+    color: var(--black);
+    font-size: 1.3rem;
+    
+
+}
+
+.deal .content p{
+    color: var(--light-color);
+    font-size: 0.8rem;
+    line-height: 2;
+    
+
+}
+
+.deal .content a {
+padding: 0.5rem;
+padding-left: 1.3rem;
+
+}
+
+.review .review-slider .box{
+    width: 30rem;
+    border: var(--border);
+    padding: 2rem;
+    text-align: center;
+}
+
+.review .review-slider .box:hover{
+    border: var(--border-hover);
+}
+
+.review .review-slider .box img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+
+
+}
+
+.review .review-slider .box h3{
+    font-size: 1.3rem;
+    color: var(--black);
+    padding: 0.5rem 0 ;
+}
+
+.review .review-slider .box p{
+    font-size: 1.0rem;
+    color: var(--light-color);
+    padding: 1rem 0 ;
+    line-height: 2;
+}
+
+.review .review-slider .box .stars i{
+    font-size: 1rem;
+    color: var(--green);
+}
+
+.blog .blog-slider .box{
+    margin: 2rem 0;
+    width: 25rem;
+    border: var(--border);
+}
+
+.blog .blog-slider .box .image{
+    height: 25rem;
+    width: 100%;
+    overflow: 100%;
+}
+
+.blog .blog-slider .box:hover{
+    border: var(--border-hover);
+}
+
+.blog .blog-slider .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog .blog-slider .box:hover .image img{
+    transform: scale(1.1);
+}
+
+.blog .blog-slider .box .content{
+    padding: 1.5rem;
+
+}
+
+.blog .blog-slider .box .content h3{
+    font-size: 1.3rem;
+    color: var(--black);
+  
+}
+
+.blog .blog-slider .box .content p{
+    font-size: 1.0rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+    line-height: 2;
+  
+}
+
+.blog .blog-slider .box .content a{
+    width: 40%;
+    padding: 0.6rem;
+    margin-left:5rem ;
+}
+.footer{
+    background-color:   rgba(249, 245, 247, 0.8);
+}
+.footer .box-container {
+    display: flex;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    gap: 1.5rem;
+    justify-content: space-between;
+   
+}
+
+.footer .box-container .box{
+    font-size: 1.3rem;
+    color: var(--black);
+    padding: 1rem 0;
+}
+
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a i{
+    color: var(--green);
+    padding-right: 0.5rem;
+}
+
+
+.footer .box-container .box a:hover i{
+   
+    padding-right: 0.5rem;
+}
+
+.footer .share a{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    font-size: 2.0rem;
+    color: #fff;
+    background-color:var(--green);
+    margin: 0 0.3rem;
+    border-radius: 50%;
+    margin-top: 1.5rem;
+    
+   
+    
+}
+
+.footer .share a:hover{
+    background: var(--black);
+}
+
+.footer .share {
+    padding: 1rem 0;
+    text-align: center;
+    
+    
+}
 
 
 
